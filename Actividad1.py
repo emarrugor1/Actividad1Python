@@ -62,6 +62,22 @@ def mostrarDineroBilletera():
     return dinero_billetera
 
 
+# Función que muestra el gusto por el clima caliente (Punto #5)
+def climaCaliente():
+    """
+        Crea una variable booleana para determinar el gusto por el clima calido y lo muestra en pantalla.
+        Returns:
+            clima_caliente: True (gusto por el clima caliente) y 
+            False (disgusto por el clima caliente)
+    """
+    clima_caliente = True
+    if clima_caliente:
+        print(f"Me gusta el clima caliente")
+    else:
+        print(f"No me gusta el clima caliente")
+    
+    return clima_caliente
+
 
 # Función principal que ejecuta todo el programa
 def main():
@@ -76,6 +92,9 @@ def main():
     # Puntos 3 y 4: Mostrar comida favorita y dinero en billetera
     mostrarComidaFavorita()
     mostrarDineroBilletera()
+
+    # Punto 5: Indica si me gusta o no el clima calido
+    climaCaliente()
 
 
 # Punto de entrada del programa
