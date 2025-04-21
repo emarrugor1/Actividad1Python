@@ -1,3 +1,13 @@
+"""
+==========================================================================
+                        ACTIVIDAD 1 - PROGRAMACIÓN EN PYTHON
+==========================================================================
+INTEGRANTES DEL GRUPO:
+- Nombre Edwin de Jesús Marrugo Rodríguez
+- Nombre Owen Romario Miranda Pérez
+==========================================================================
+"""
+
 # Función que determina el mensaje según la edad (Punto #1)
 def determinarMensajeEdad(edad):
     """
